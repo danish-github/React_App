@@ -8,7 +8,7 @@
 //         this.handleMinusOne = this.handleMinusOne.bind(this);
 //         this.handleReset = this.handleReset.bind(this);
 //         this.state = {
-//             count: 0
+//             count: props.count
 //         }
 //     }
 
@@ -46,6 +46,10 @@
 //             </div>
 //         );
 //     }
+// }
+
+// App_counter.defaultProps = {
+//     count: 0
 // }
 
 // export default App_counter;
